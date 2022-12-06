@@ -13,6 +13,7 @@
 --      )
 -- );
 
+CREATE TABLE Charging_Inf (
     Year Int   NOT NULL,
     EVSE_Ports Int   NOT NULL,
     Station_Locations Int   NOT NULL
