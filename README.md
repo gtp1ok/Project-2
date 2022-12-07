@@ -9,7 +9,9 @@ Team Go-Green is using publicly available data sources to determine the penetrat
 
 Datasets used:
 
-1.  https://data.wa.gov/:  Data for the Electric Vehicle Title and Registration Activity for Washington state have been collected from the https://data.wa.gov/ site using API the Socrata Open Data API using API token which is saved in apikeys file. The obtained data is assigned to a Electric_vehicle_df dataframe in pandas. The required columns have been copied from the Electric_vehicle_df dataframe into new_EV_df dataframe. Then the new_EV_df is aggregated using function value_counts() and count(). The count function checks whether the dataset has the same number of columns. The value_counts() function is used to determine the column element count for the specific task.
+1.  https://data.wa.gov/:  Using API the Socrata Open Data API using API token which is saved in apikeys file. The obtained data is assigned to a Electric_vehicle_df                            dataframe in pandas. The required columns have been copied from the Electric_vehicle_df dataframe into new_EV_df dataframe. Then the                                  new_EV_df is aggregated using function value_counts() and count(). The count function checks whether the dataset has the same number of                                columns. The value_counts() function is used to determine the column element count for the specific task.
+2.  https://developer.nrel.gov/:  Using Api, data have been collected for the alternate fuel for station_name, Zip code, City. The data is stored in                                                     charging_station_df for analysis. The count() function is used to check the accuracy of the data for the columns. The value.counts()                                   function is used to get the no.of charging station per zip code.
+                                  The data from two data frames new_EV_df and charging_station_df is merged into single dataframe Electrical_vehicle_data and is                                         stored in the MongoDB.
 
 
 Breakdown of Tasks:
