@@ -4,6 +4,7 @@
 
 
 Project Overview:
+
 Team Go-Green is using publicly available data sources to determine the penetration of electric vehicles (EV) and charging stations in each county in Washington.  Our intent was to create a Mongo database of the EV and charging stations per county for future comparisons.
 
 
