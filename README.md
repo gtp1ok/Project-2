@@ -9,23 +9,29 @@ Team Go-Green is using publicly available data sources to determine the penetrat
 
 Datasets used:
 
-1.  https://data.wa.gov/:  Using API the Socrata Open Data API using API token which is saved in apikeys file. The obtained data is assigned to a Electric_vehicle_df                            dataframe in pandas. The required columns have been copied from the Electric_vehicle_df dataframe into new_EV_df dataframe. Then the                                  new_EV_df is aggregated using function value_counts() and count(). The count function checks whether the dataset has the same number of                                columns. The value_counts() function is used to determine the column element count for the specific task.
-2.  https://developer.nrel.gov/:  Using Api, data have been collected for the alternate fuel for station_name, Zip code, City. The data is stored in                                                     charging_station_df for analysis. The count() function is used to check the accuracy of the data for the columns. The value.counts()                                   function is used to get the no.of charging station per zip code.
-                                  The data from two data frames new_EV_df and charging_station_df is merged into single dataframe Electrical_vehicle_data and is                                         stored in the MongoDB.
-
+1.  https://catalog.data.gov/dataset/electric-vehicle-population-size-history-by-county:  Electric Vehicle Title and Registration Activity.csv
+2.  https://data.wa.gov/resource/f6w7-q2d2.json?:  'https://data.wa.gov/resource/f6w7-q2d2.json?$select=dol_vehicle_id,cafv_type,electric_utility&$limit=' +               str(limit)
 
 Breakdown of Tasks:
 
 Extract: 
 
+1.	Extracted the Data for the Electric Vehicle Title and Registration Activity for Washington State from data.wa.gov in the form of CSV file.
+2.	Utilized the data.wa.gov API to retrieve the DOL Vehicle ID, Clean Alternative Fuel Vehicle (CAFV) Eligibility and Electric Utility data.
+
 Transform:
+
+1.	Utilized PANDAS to convert the .csv file and make the API request.  Created two dataframes and merged data into a single dataset using a outer join using DOL         Vehicle ID.
+2.	Dropped the columns which wasn’t required for the needed analysis
+3.	Filtered the data by transaction type is equal to Original Registration and transaction year is greater or equal to 2020
 
 Load:
 
+1.	Loaded the transformed data from Jupyter Notebook into MongoDB.
+
 Schema used in final database:
 
-
-
+![image](https://user-images.githubusercontent.com/112281976/206577464-992b3e6e-005e-421c-b233-196080413abc.png)
 
 
 Assignment of Tasks:
