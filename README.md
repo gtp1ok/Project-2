@@ -19,7 +19,7 @@ Datasets used:
         *  client = Socrata(socrata_domain, socrata_token)
            print("Domain: {domain:}\nSession: {session:}\nURI Prefix: {uri_prefix:}".format(**client.__dict__))
            
- 3.  3.	https://developer.nrel.gov/:
+ 3.  https://developer.nrel.gov/:
  
        *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&api_key=GXdaQPp5l7Yjz3WoYHFA6QPAHSsMd27foCca2ZCW"
 
