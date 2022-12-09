@@ -64,5 +64,9 @@ Additional Notes
     *  https://data.wa.gov/
     *  https://developer.nrel.gov/
    
+  3. How to generate your own API Key
+  
+   * To get the SODAPY_APPTOKEN,  go to the following page  https://data.wa.gov/ and sign-in.
+   * To get the api key for fuel station data, go to the site https://developer.nrel.gov/
 
 
