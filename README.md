@@ -7,6 +7,8 @@ Project Overview:
 
 Team Go-Green is using publicly available data sources to determine the penetration of electric vehicles (EV) and charging stations in each county in Washington. Team Go-Green attempted multiple approaches in the ETL process that resulted in multiple DB’s that can be used for further analysis on EV penetrations rates in Washington. Our intent was to create a Mongo database of the EV and charging stations per county for future comparisons.
 
+Team Members:  Elamathi Elangovan, Madduri Sridevi, Glenn Purcell
+
 Datasets used:
 
 1. https://catalog.data.gov/dataset/electric-vehicle-population-size-history-by-county
@@ -21,7 +23,7 @@ Datasets used:
            
  3.  https://developer.nrel.gov/:
  
-       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&API_KEY=API_KEY
+       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&API_KEY=API_KEY (see additional notes for API Key Directions)
 
 
 Breakdown of Tasks:
@@ -64,5 +66,9 @@ Additional Notes
     *  https://data.wa.gov/
     *  https://developer.nrel.gov/
    
+  3. How to generate your own API Key
+  
+    * To get the SODAPY_APPTOKEN,  go to the following page  https://data.wa.gov/ and sign-in.
+    * To get the api key for fuel station data, go to the site https://developer.nrel.gov/
 
 
