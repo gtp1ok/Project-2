@@ -56,7 +56,7 @@ Additional Notes
 1. CSV files used:
 
     *  Electric_Vehicle_Population_Size_History_By_County  
-    *  Electric_Vehicle_Title_and_Registration_Activity (file too large for GitHub. 
+    *  Electric_Vehicle_Title_and_Registration_Activity (file too large for GitHub) 
         *   Access file here:  https://drive.google.com/drive/folders/1szz3SyHJXtPhLj03Q7q_lIishAA22TK5?usp=share_link
  
  2. API websites:
