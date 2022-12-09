@@ -21,7 +21,7 @@ Datasets used:
            
  3.  https://developer.nrel.gov/:
  
-       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&api_key=GXdaQPp5l7Yjz3WoYHFA6QPAHSsMd27foCca2ZCW"
+       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&API_KEY=API_KEY
 
 
 Breakdown of Tasks:
