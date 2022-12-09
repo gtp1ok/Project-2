@@ -14,11 +14,7 @@ Datasets used:
    *  CSV download (additional notes)
   
 2.  https://data.wa.gov/resource/f6w7-q2d2.json?: 
-
-   *  'https://data.wa.gov/resource/f6w7-q2d2.json?$select=dol_vehicle_id,cafv_type,electric_utility&$limit=' + str(limit)
    
-   *  client = Socrata(socrata_domain, socrata_token)
-      print("Domain: {domain:}\nSession: {session:}\nURI Prefix: {uri_prefix:}".format(**client.__dict__))
 
 
 
