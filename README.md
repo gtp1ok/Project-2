@@ -10,6 +10,7 @@ Team Go-Green is using publicly available data sources to determine the penetrat
 Datasets used:
 
 1. https://catalog.data.gov/dataset/electric-vehicle-population-size-history-by-county
+   *CSV download (additional notes)
   
 
 2.  https://data.wa.gov/resource/f6w7-q2d2.json?:  'https://data.wa.gov/resource/f6w7-q2d2.json?$select=dol_vehicle_id,cafv_type,electric_utility&$limit=' +               str(limit)
@@ -34,7 +35,8 @@ Load:
 
 Schema used in final database:
 
-![image](https://user-images.githubusercontent.com/112281976/206577464-992b3e6e-005e-421c-b233-196080413abc.png)
+![image](https://user-images.githubusercontent.com/112281976/206601991-4edf71b0-2c72-4b7f-8912-2019ad3026d6.png)
+
 
 
 Assignment of Tasks:
