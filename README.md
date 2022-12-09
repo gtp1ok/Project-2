@@ -56,5 +56,12 @@ Additional Notes
 1. CSV files used:
 
     *  Electric_Vehicle_Population_Size_History_By_County  
+    *  Electric_Vehicle_Title_and_Registration_Activity
+ 
+ 2. API websites:
+ 
+    *  https://data.wa.gov/
+    *  https://developer.nrel.gov/
+    *  
 
 
