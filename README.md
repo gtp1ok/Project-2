@@ -18,9 +18,10 @@ Datasets used:
         *  'https://data.wa.gov/resource/f6w7-q2d2.json?$select=dol_vehicle_id,cafv_type,electric_utility&$limit=' + str(limit)
         *  client = Socrata(socrata_domain, socrata_token)
            print("Domain: {domain:}\nSession: {session:}\nURI Prefix: {uri_prefix:}".format(**client.__dict__))
-
-   
-
+           
+ 3.  3.	https://developer.nrel.gov/:
+ 
+       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&api_key=GXdaQPp5l7Yjz3WoYHFA6QPAHSsMd27foCca2ZCW"
 
 
 Breakdown of Tasks:
@@ -29,6 +30,7 @@ Extract:
 
 1.	Extracted the Data for the Electric Vehicle Title and Registration Activity for Washington State from data.wa.gov in the form of CSV file.
 2.	Utilized the data.wa.gov API to retrieve the DOL Vehicle ID, Clean Alternative Fuel Vehicle (CAFV) Eligibility and Electric Utility data.
+3.	Used the developer.nrel.gov API to retrieve the fuel station and zip data.
 
 Transform:
 
@@ -50,5 +52,9 @@ Assignment of Tasks:
 All work for Project 2 was a collaborative effort during class time and group sessions outside of class.
 
 Additional Notes
+
+1.	CSV files used:
+
+*  Electric_Vehicle_Population_Size_History_By_County  
 
 
