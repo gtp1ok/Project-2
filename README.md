@@ -53,7 +53,7 @@ All work for Project 2 was a collaborative effort during class time and group se
 
 Additional Notes
 
-1.	CSV files used:
+1. CSV files used:
 
 *  Electric_Vehicle_Population_Size_History_By_County  
 
