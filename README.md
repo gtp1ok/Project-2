@@ -62,6 +62,6 @@ Additional Notes
  
     *  https://data.wa.gov/
     *  https://developer.nrel.gov/
-    *  
+   
 
 
