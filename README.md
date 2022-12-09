@@ -55,6 +55,6 @@ Additional Notes
 
 1. CSV files used:
 
-*  Electric_Vehicle_Population_Size_History_By_County  
+    *  Electric_Vehicle_Population_Size_History_By_County  
 
 
