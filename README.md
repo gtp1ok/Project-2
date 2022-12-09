@@ -21,7 +21,7 @@ Datasets used:
            
  3.  https://developer.nrel.gov/:
  
-       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&api_key=GXdaQPp5l7Yjz3WoYHFA6QPAHSsMd27foCca2ZCW"
+       *  f"https://developer.nrel.gov/api/alt-fuel-stations/v1.json?ELEC&state=WA&API_KEY=API_KEY
 
 
 Breakdown of Tasks:
@@ -56,7 +56,8 @@ Additional Notes
 1. CSV files used:
 
     *  Electric_Vehicle_Population_Size_History_By_County  
-    *  Electric_Vehicle_Title_and_Registration_Activity
+    *  Electric_Vehicle_Title_and_Registration_Activity (file too large for GitHub) 
+        *   Access file here:  https://drive.google.com/drive/folders/1szz3SyHJXtPhLj03Q7q_lIishAA22TK5?usp=share_link
  
  2. API websites:
  
