@@ -41,9 +41,9 @@ Transform:
 3.	Filtered the data by transaction type is equal to Original Registration and transaction year is greater or equal to 2020
 4.	Created 3 Jupyter Notefile files using different data source approaches, but utilized similiar analysis techniques to acquire the desired results. The file names     are:
    
-   * Electric_Vehicle_Enrich.ipynb : The power utility that served the EV Charger
-   * Electric_vehicle_cs.ipynb : EV Charging per county in Washing and typ of EV's using Charging Stations. 
-   * Was_EV.ipynb : EV totals per county and non-EV per county
+        * Electric_Vehicle_Enrich.ipynb : The power utility that served the EV Charger
+        * Electric_vehicle_cs.ipynb : EV Charging per county in Washing and typ of EV's using Charging Stations. 
+        * Was_EV.ipynb : EV totals per county and non-EV per county
 
 Load:
 
